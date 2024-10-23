@@ -1,0 +1,45 @@
+.voucher-table-format {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.voucher-table-format.title {
+    background-color: #f9f9f9;
+}
+
+.voucher-table-format img {
+    width: 50px;
+    object-fit: cover;
+}
+
+.btn-add-voucher {
+    padding: 12px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    width: 130px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.btn-add-voucher:hover {
+    background-color: #333;
+}
+
+@media (max-width: 600px) {
+    .voucher-table-format {
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 15px;
+    }
+
+    .voucher-table-format.title {
+        display: none;
+    }
+}

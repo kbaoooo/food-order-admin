@@ -1,0 +1,63 @@
+.editfood-container {
+  padding: 40px;
+}
+
+.editfood-content h2 {
+  margin-bottom: 20px;
+  color: tomato;
+}
+
+.editfood-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 500px;
+}
+
+.editfood-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editfood-input img{
+  width: 350px;
+  height: 272px;
+  object-fit: cover;
+}
+
+.editfood-input label {
+  width: 100px;
+  font-size: 14px;
+}
+
+.editfood-input input {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.editfood-input input:focus {
+  border: 1px solid tomato;
+}
+
+.editfood-input select {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.editfood-form button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}

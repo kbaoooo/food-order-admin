@@ -1,0 +1,81 @@
+.manage-user-container {
+    padding: 25px;  
+    width: 80%;
+}
+
+.manage-user-content h2 {
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.manage-user-content h3{
+    color: #333;
+}
+
+.manage-user-list-wrapper {
+    margin-top: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+
+.manage-user-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.manage-user-list-item:last-child {
+    border-bottom: none;
+}   
+
+.manage-user-list-item button {
+    color: tomato;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.crown-icon {
+    color: rgb(240, 205, 6);
+    font-size: 20px;
+}
+
+.manage-user-form {
+    margin-bottom: 70px;
+    width: 400px;
+}
+
+.manage-user-input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.manage-user-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.manage-user-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 15px;
+}
+
+.manage-user-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

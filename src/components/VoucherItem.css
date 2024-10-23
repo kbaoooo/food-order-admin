@@ -1,0 +1,48 @@
+.voucher-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voucher-item {
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    font-size: 15px;
+    position: relative;
+    border: 1px solid tomato;
+}
+
+.voucher-item p span:first-child {
+    font-weight: bold;
+    color: #626262
+}
+
+.voucher-item p {
+    margin-bottom: 10px;
+}
+
+.voucher-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: tomato;
+}
+
+.btn-delete-voucher {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.btn-delete-voucher:hover {
+    background-color: #ff4d4d;
+}

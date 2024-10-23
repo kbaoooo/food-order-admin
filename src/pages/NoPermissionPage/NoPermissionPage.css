@@ -1,0 +1,23 @@
+.no-permission-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.no-permission-content {
+    margin-top: 100px;
+}
+
+.no-permission-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #49557e;
+}
+
+.no-permission-content a {
+    color: tomato;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}

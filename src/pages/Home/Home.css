@@ -1,0 +1,48 @@
+.home-container {
+    width: 80%;
+    padding: 25px;
+}
+
+.home-wrapper h2 {
+    color: tomato;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.charts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.home-chart {
+    width: 100%;
+}
+
+.home-chart h3 {
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.home-chart p {
+    text-align: center;
+    color: #474747;
+    font-weight: bold;
+}
+
+.pie-chart {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.bar-chart {
+    width: 900px;
+    margin: 0 auto;
+}
