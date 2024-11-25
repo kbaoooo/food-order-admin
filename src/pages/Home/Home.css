@@ -1,6 +1,7 @@
 .home-container {
     width: 80%;
     padding: 25px;
+    padding-bottom: 40px;
 }
 
 .home-wrapper h2 {
@@ -23,7 +24,12 @@
 }
 
 .home-chart {
-    width: 100%;
+    width: 85%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
 }
 
 .home-chart h3 {
@@ -38,11 +44,24 @@
 }
 
 .pie-chart {
-    width: 400px;
+    width: 330px;
     margin: 0 auto;
 }
+
+.doughnut-chart {
+    width: 330px;
+    margin: 0 auto;
+}
+
 
 .bar-chart {
     width: 900px;
     margin: 0 auto;
+}
+
+.chart-group {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }

@@ -71,7 +71,7 @@ function VoucherItem({ vouchers, onDeleteVoucher }) {
 
   return (
     <div className="voucher-item-wrapper">
-      <div>
+      <div className="voucher-item-content">
         <h2 className="voucher-title">Ưu đãi cố định</h2>
         {fixedVouchers?.map((voucher) => (
           <div key={voucher.voucher_id} className="voucher-item">
@@ -121,7 +121,7 @@ function VoucherItem({ vouchers, onDeleteVoucher }) {
         ))}
       </div>
 
-      <div>
+      <div className="voucher-item-content">
         <h2 className="voucher-title">Ưu đãi theo phần trăm</h2>
         {percentageVouchers?.map((voucher) => (
           <div key={voucher.voucher_id} className="voucher-item">
