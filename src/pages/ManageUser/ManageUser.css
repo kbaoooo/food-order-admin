@@ -79,3 +79,8 @@
     cursor: pointer;
     outline: none;
 }
+
+.user-manage-span {
+    color: #908f8f;
+    font-size: 15px;
+}

@@ -211,9 +211,13 @@ function ManageUser() {
               {admins.map((admin) => (
                 <div key={admin.user_id} className="manage-user-list-item">
                   <p>{admin.email}</p>
-                  {admin.isAdmin == 2 ? (
+                  {admin.isAdmin == 2 && (
                     <FontAwesomeIcon icon={faCrown} className="crown-icon" />
-                  ) : (
+                  )}
+
+                  {admin.isAdmin == 1 && <span className="user-manage-span">Tôi</span>}
+
+                  {!admin.isAdmin && (
                     <button onClick={() => handleDeleteRole(admin.email)}>
                       Xóa quản trị viên
                     </button>
